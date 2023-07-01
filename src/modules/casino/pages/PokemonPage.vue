@@ -105,7 +105,7 @@ export default {
                 this.gano = false;
                 this.siguientePantalla = true;
             } else {
-                if (this.puntaje >= 5) {
+                if (this.puntaje >= 10) {
                      this.gano = true;
                      this.siguientePantalla = true;
                  }
